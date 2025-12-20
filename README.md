@@ -2,3 +2,18 @@
 
 ## Abstract
 Time series forecasting requires models that can efficiently capture complex temporal dependencies, especially in large-scale and high-dimensional settings.~While Transformer-based architectures excel at modeling long-range dependencies, their quadratic computational complexity poses limitations on scalability and adaptability. To address these challenges, we propose a lightweight model named Haar-TransF, a novel Transformer-inspired architecture that replaces the self-attention module with a learnable Multi-Scale Haar Transform (MSHT) block. The MSHT block, equipped with trainable low- and high-pass haar like filter coefficients, efficiently captures multi-scale approximation and detail components, effectively encoding periodic patterns while suppressing noise, thereby enhancing the modeling of correlations across multiple time series in forecasting tasks. Extensive experiments on several standard forecasting benchmarks demonstrate that Haar-TransF achieves superior predictive accuracy to conventional Transformer-based models, while substantially reducing memory usage for the time series forecasting task.~The obtained experimental results position Haar-TransF as a scalable and resource-efficient framework for advanced time series forecasting.
+
+## 1. Dataset
+| Dataset            | Variates | Timesteps | Granularity |
+|--------------------|----------|-----------|-------------|
+| Traffic            | 862      | 17,544    | 1 hour      |
+| PEMS03             | 358      | 26,209    | 5 min       |
+| PEMS04             | 307      | 16,992    | 5 min       |
+| PEMS07             | 883      | 28,224    | 5 min       |
+| PEMS08             | 170      | 17,856    | 5 min       |
+| ETTm1 & ETTm2      | 7        | 17,420    | 15 min      |
+| ETTh1 & ETTh2      | 7        | 69,680    | 1 hour      |
+| Electricity        | 321      | 26,304    | 1 hour      |
+| Exchange           | 8        | 7,588     | 1 day       |
+| Weather            | 21       | 52,696    | 10 min      |
+| Solar-Energy       | 137      | 52,560    | 10 min      |
