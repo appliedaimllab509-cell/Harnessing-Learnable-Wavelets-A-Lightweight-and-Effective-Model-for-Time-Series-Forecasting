@@ -66,7 +66,7 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
 
 ##  4. Acknowledgement 
 
-We are grateful for the following awesome projects when implementing S-Mamba:
+We are grateful for the following awesome projects when implementing HaarTransF:
 
 - [iTransformer](https://github.com/thuml/iTransformer)
 - [S-Mamba](https://github.com/wzhwzhwzh0921/S-D-Mamba/tree/main)
