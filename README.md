@@ -30,3 +30,11 @@ The performance of the proposed model is assessed on several benchmark time seri
 | Exchange           | 8        | 7,588     | 1 day       |
 | Weather            | 21       | 52,696    | 10 min      |
 | Solar-Energy       | 137      | 52,560    | 10 min      |
+
+## 3. Results and Analysis
+We compare the proposed model with several state-of-the-art (SOTA) approaches such as  iTransformer \cite{liu2023itransformer}, PatchTST \cite{nie2022patchtst}, Crossformer \cite{zhang2023crossformer}, Autoformer \cite{wu2021autoformer}, RLinear \cite{zhang2023rlinear}, TiDE \cite{das2304long}, DLinear \cite{zeng2023transformers}, FedFormer \cite{zhou2022fedformer} and TimesNet \cite{wu2023timesnet}. We evaluate model performances using Mean Squared Error (MSE) and Mean Absolute Error (MAE) between the ground truth and predictions.~Table.1 reports the comparative performance of Haar-TransF against state-of-the-art methods on five benchmark TSF datasets. The evaluation is conducted across multiple forecasting lengths, and the overall effectiveness is measured by averaging the MSE and MAE across all lengths. The table also reports the value of the parameter number of levels $(L)$ corresponding to the best results. Specifically, for the PEMS-8 dataset, the model attains its highest performance at level 4, whereas for most of the other datasets, the optimal performance is observed at level 1. As evident from the results, Haar-TransF consistently outperforms existing approaches, achieving 22 best MSEs and 20 best MAEs in total. On the Weather dataset, Haar-TransF delivers notable improvements of 0.09 in MSE and 0.04 in MAE over the i-Transformer. For the PEMS08 dataset, its performance remains competitive with i-Transformer. Crucially, unlike i-Transformer, which struggles to capture the inherent periodic structures of these datasets, Haar-TransF effectively leverages such patterns to attain superior forecasting accuracy. Furthermore, it demonstrates substantial gains over linear baseline such as RLinear, highlighting its ability to learn richer temporal representations.
+<p align="center">
+  <img src="assets/mian_table.png" 
+       alt="main_results with baselines"
+       width="500">
+</p>
