@@ -13,7 +13,7 @@ Time series forecasting requires models that can efficiently capture complex tem
        alt="Learnable Haar Wavelet"
        width="500">
 </p>
-*Figure 1 (b): Overview of the proposed Haar-TransF architecture.*
+*Figure 1 (b): Overview of the proposed Multi-scale Haar Transform architecture.*
 
 ## 2. Dataset
 The performance of the proposed model is assessed on several benchmark time series forecasting datasets, namely Electricity \cite{wu2021autoformer}, Weather \cite{wu2021autoformer}, ETT \cite{zhou2021informer}, and PEMS \cite{chen2001freeway}. However, due to space constraints, we report results only for the ETTm1, ETTh1, and PEMS08 datasets. The (batch size, D-model) is set to (16, 512) for Electricity, (32, 768) for Weather,(32, 256) for ETTh1, (32, 256) for ETTm1, and (32, 640) for PEMS08 datasets, respectively, across all the experiments. The value of the number of heads is set to 16 for all the experiments.
@@ -36,5 +36,5 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
 <p align="center">
   <img src="assets/mian_table.png" 
        alt="main_results with baselines"
-       width="700">
+       width="800">
 </p>
