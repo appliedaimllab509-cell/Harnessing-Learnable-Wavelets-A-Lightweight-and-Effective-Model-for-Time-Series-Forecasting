@@ -39,16 +39,6 @@ bash ./scripts/multivariate_forecasting/ETT/HaarTransF_ETTm2.sh
 bash ./scripts/multivariate_forecasting/ETT/HaarTransF_ETTh1.sh
 bash ./scripts/multivariate_forecasting/ETT/HaarTransF_ETTh2.sh
 ```
-##  Acknowledgement 
-
-We are grateful for the following awesome projects when implementing S-Mamba:
-
-- [iTransformer](https://github.com/thuml/iTransformer)
-- [S-Mamba](https://github.com/wzhwzhwzh0921/S-D-Mamba/tree/main)
-- [Mamba](https://github.com/state-spaces/mamba)
-
-
-
 
 ## 2. Dataset
 The performance of the proposed model is assessed on several benchmark time series forecasting datasets, namely Electricity \cite{wu2021autoformer}, Weather \cite{wu2021autoformer}, ETT \cite{zhou2021informer}, and PEMS \cite{chen2001freeway}. However, due to space constraints, we report results only for the ETTm1, ETTh1, and PEMS08 datasets. The (batch size, D-model) is set to (16, 512) for Electricity, (32, 768) for Weather,(32, 256) for ETTh1, (32, 256) for ETTm1, and (32, 640) for PEMS08 datasets, respectively, across all the experiments. The value of the number of heads is set to 16 for all the experiments.
@@ -73,3 +63,11 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
        alt="main_results with baselines"
        width="800">
 </p>
+
+##  4. Acknowledgement 
+
+We are grateful for the following awesome projects when implementing S-Mamba:
+
+- [iTransformer](https://github.com/thuml/iTransformer)
+- [S-Mamba](https://github.com/wzhwzhwzh0921/S-D-Mamba/tree/main)
+- [Mamba](https://github.com/state-spaces/mamba)
