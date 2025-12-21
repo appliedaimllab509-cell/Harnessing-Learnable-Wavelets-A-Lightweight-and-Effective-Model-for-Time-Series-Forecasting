@@ -11,7 +11,7 @@ Time series forecasting requires models that can efficiently capture complex tem
 <p align="center">
   <img src="assets/time_series_forecasting-MSHT_block.drawio.png" 
        alt="Learnable Haar Wavelet"
-       width="700">
+       width="500">
 </p>
 *Figure 1 (b): Overview of the proposed Haar-TransF architecture.*
 
@@ -36,5 +36,5 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
 <p align="center">
   <img src="assets/mian_table.png" 
        alt="main_results with baselines"
-       width="500">
+       width="700">
 </p>
