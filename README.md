@@ -27,7 +27,7 @@ bash ./scripts/multivariate_forecasting/Traffic/HaarTransF.sh
 # Weather
 bash ./scripts/multivariate_forecasting/Weather/HaarTransF.sh
 # Solar-Energy
-bash ./scripts/multivariate_forecasting/SolarEnergy/S_Mamba.sh
+bash ./scripts/multivariate_forecasting/SolarEnergy/HaarTransF.sh
 # PEMS
 bash ./scripts/multivariate_forecasting/PEMS/HaarTransF_03.sh
 bash ./scripts/multivariate_forecasting/PEMS/HaarTransF_04.sh
