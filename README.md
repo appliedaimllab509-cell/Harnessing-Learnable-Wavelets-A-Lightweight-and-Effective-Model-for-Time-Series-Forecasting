@@ -17,9 +17,9 @@ Code will be released soon..!!
        width="400">
 </p>
 
-### An ablation study on the MSHT block is initialized with fixed coefficients versus the trainable MSHT .
+### An ablation study on the MSHT block is initialized with Fixed coefficients versus the trainable MSHT .
 <p align="center">
-  <img src="assets/ablation_fixed.png" 
+  <img src="assets/ablation_fixed_coef.png" 
        alt="main_results with baselines"
        width="400">
 </p>
