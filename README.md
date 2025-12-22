@@ -89,4 +89,3 @@ We are grateful for the following awesome projects when implementing HaarTransF:
 
 - [iTransformer](https://github.com/thuml/iTransformer)
 - [S-Mamba](https://github.com/wzhwzhwzh0921/S-D-Mamba/tree/main)
-- [Mamba](https://github.com/state-spaces/mamba)
