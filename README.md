@@ -71,7 +71,7 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
        width="500">
 </p>
 
-##  4. Acknowledgement 
+##  Acknowledgement 
 
 We are grateful for the following awesome projects when implementing HaarTransF:
 
