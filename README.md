@@ -29,5 +29,5 @@ Code will be released soon..!!
 <p align="center">
   <img src="assets/complexity_analysis.png" 
        alt="main_results with baselines"
-       width="400">
+       width="700">
 </p>
