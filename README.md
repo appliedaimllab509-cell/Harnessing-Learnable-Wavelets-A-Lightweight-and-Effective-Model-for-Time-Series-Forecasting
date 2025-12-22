@@ -15,7 +15,7 @@ Time series forecasting requires models that can efficiently capture complex tem
        alt="Learnable Haar Wavelet"
        width="500">
 </p>
-*Figure 1 (b): Overview of the proposed Multi-scale Haar Transform architecture.*
+Figure 1 (b): Overview of the proposed Multi-scale Haar Transform architecture.
 
 ### Train and evaluate
 
@@ -67,13 +67,14 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
 </p>
 
 ### Computational Complexity
-It is evident from the Fig.\ref{Computational_Cost_Plots} that the Haar-TransF uses 21.82, 8.13, 8.32, 4.47, 4.2, and 2.8 times fewer parameters than CroosFormer, FEDFormer, TiDE, PatchTST, Autoformer, and i-Transformer, respectively. For the same set of models, the proposed approach requires 622.58, 58.92, 12.07, 33.53, 58.92, and 2.80 times fewer FLOPs, respectively. Fig.~(\ref{ECL_Bubble}) and Fig.~(\ref{ETT_Bubble}) present a comparison of various SOTA methods in terms of MSE and GPU memory consumption per iteration for the TSF task on the Electricity and ETTm1 datasets, respectively. As illustrated, Haar-TransF consistently achieves superior predictive accuracy while sustaining a low computational footprint(parameter=3.60M, FLOPs=2.41G). The computational cost analysis clearly demonstrates that the proposed model outperforms SOTA methods while utilizing significantly fewer parameters and FLOPs, highlighting its effectiveness in resource-constrained environments.
+It is evident from the Fig.\ref{Computational_Cost_Plots} that the Haar-TransF uses 21.82, 8.13, 8.32, 4.47, 4.2, and 2.8 times fewer parameters than CroosFormer, FEDFormer, TiDE, PatchTST, Autoformer, and i-Transformer, respectively. For the same set of models, the proposed approach requires 622.58, 58.92, 12.07, 33.53, 58.92, and 2.80 times fewer FLOPs, respectively. As illustrated, Haar-TransF consistently achieves superior predictive accuracy while sustaining a low computational footprint(parameter=3.60M, FLOPs=2.41G). The computational cost analysis clearly demonstrates that the proposed model outperforms SOTA methods while utilizing significantly fewer parameters and FLOPs, highlighting its effectiveness in resource-constrained environments.
 
 <p align="center">
   <img src="assets/model_efficiency_params_vs_flops_logscale.png" 
        alt="main_results with baselines"
        width="500">
 </p>
+Figure 2: Comparison of Computational Cost.
 
 ### Ablations
 <p align="center">
