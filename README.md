@@ -1,5 +1,5 @@
 # Harnessing-Learnable-Wavelets-A-Lightweight-and-Effective-Model-for-Time-Series-Forecasting
-Code will be resealing soon..!!
+Code will be released soon..!!
 
 ##  Ablation
 
