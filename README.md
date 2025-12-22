@@ -10,9 +10,16 @@ Code will be released soon..!!
 
 ## 2. Ablations
 
-### An ablation study on the MSHT block is initialized with random weights instead of Haar coefficients.
+### An ablation study on the MSHT block is initialized with random weights versus the trainable MSHT .
 <p align="center">
-  <img src="assets/ablation_random_w.png" 
+  <img src="assets/ablation_randomW.png" 
+       alt="main_results with baselines"
+       width="400">
+</p>
+
+### An ablation study on the MSHT block is initialized with fixed coefficients versus the trainable MSHT .
+<p align="center">
+  <img src="assets/ablation_fixed.png" 
        alt="main_results with baselines"
        width="400">
 </p>
