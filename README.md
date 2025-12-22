@@ -68,7 +68,7 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
 <p align="center">
   <img src="assets/HaarTransF_Ablation.png" 
        alt="main_results with baselines"
-       width="800">
+       width="500">
 </p>
 
 ##  4. Acknowledgement 
