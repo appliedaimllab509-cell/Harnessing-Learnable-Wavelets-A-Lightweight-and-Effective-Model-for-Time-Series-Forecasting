@@ -64,6 +64,13 @@ We compare the proposed model with several state-of-the-art (SOTA) approaches su
        width="800">
 </p>
 
+### Ablations
+<p align="center">
+  <img src="assets/HaarTransF_Ablation.png" 
+       alt="main_results with baselines"
+       width="800">
+</p>
+
 ##  4. Acknowledgement 
 
 We are grateful for the following awesome projects when implementing HaarTransF:
