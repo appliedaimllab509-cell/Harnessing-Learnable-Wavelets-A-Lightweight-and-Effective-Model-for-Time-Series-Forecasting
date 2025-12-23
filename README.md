@@ -1,5 +1,5 @@
 # Harnessing-Learnable-Wavelets-A-Lightweight-and-Effective-Model-for-Time-Series-Forecasting
-Code will be released soon..!!
+Code will be released soon !!
 
 ## 1. Comparisons with DLinear and TiDE have now been added into Table 1 [Reply to Reviewer [6B3D] ].
 <p align="center">
