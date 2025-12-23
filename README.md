@@ -1,7 +1,7 @@
 # Harnessing-Learnable-Wavelets-A-Lightweight-and-Effective-Model-for-Time-Series-Forecasting
 Code will be released soon..!!
 
-## 1. Comparisons with DLinear and TiDE have now been added into Table 1
+## 1. Comparisons with DLinear and TiDE have now been added into Table 1 [Reply to Reviewer [6B3D] ].
 <p align="center">
   <img src="assets/mian_table.png" 
        alt="main_results with baselines"
@@ -10,21 +10,22 @@ Code will be released soon..!!
 
 ## 2. Ablations
 
-### An ablation study on the MSHT block is initialized with random weights versus the trainable MSHT .
+### An ablation study on the MSHT block is initialized with random weights versus the trainable MSHT [Reply to Reviewer [6B3D] ].
 <p align="center">
   <img src="assets/ablation_randomW.png" 
        alt="main_results with baselines"
        width="400">
 </p>
 
-### An ablation study on the MSHT block is initialized with Fixed coefficients versus the trainable MSHT .
+### An ablation study on the MSHT block is initialized with Fixed coefficients versus the trainable MSHT [Reply to Reviewer [54E3] ].
 <p align="center">
   <img src="assets/ablation_fixed_coef.png" 
        alt="main_results with baselines"
        width="400">
 </p>
 
-### Theoretical Complexity Analysis
+### Theoretical Complexity Analysis [Reply to Reviewer ![54E3](https://img.shields.io/badge/Reviewer%20Comment--2-6B3D-red)
+ ].
 
 <p align="center">
   <img src="assets/complexity_analysis.png" 
