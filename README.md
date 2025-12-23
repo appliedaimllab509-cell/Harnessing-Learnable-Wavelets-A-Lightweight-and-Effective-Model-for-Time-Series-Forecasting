@@ -24,8 +24,7 @@ Code will be released soon..!!
        width="400">
 </p>
 
-### Theoretical Complexity Analysis [Reply to Reviewer ![54E3](https://img.shields.io/badge/Reviewer%20Comment--2-6B3D-red)
- ].
+### Theoretical Complexity Analysis [Reply to Reviewer [54E3] ].
 
 <p align="center">
   <img src="assets/complexity_analysis.png" 
